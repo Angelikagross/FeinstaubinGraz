@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feinstaub in Graz</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+  <article>
+  <header>
+    <h1>Feinstaub in Graz</h1>
+  </header>
+<main><h2>Visualisierung</h2>
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" 
+    preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 60" id="Grafik2017"> 
+
+  <title>Title goes here</title>
+  <line x1= "10" y1="40" x2="100" y2="40" stroke="black" id="xline" />
+  <line x1= "10" y1="6" x2="10" y2="40" stroke="black" id="yline" />
+  <line x1= "8" y1="10" x2="12" y2="10" stroke="black" id="line50" />
+  <line x1= "8" y1="20" x2="12" y2="20" stroke="black" id="line40"/>
+    <line x1= "8" y1="30" x2="12" y2="30" stroke="black" id="line30"/>
+  <rect x="15" y="36" width="10" height="4" id="grazost" />
+    <rect x="30" y="21" width="10" height="19" id="donbosco" />
+  <rect x="45" y="35" width="10" height="5" id="grazwest" />
+  <rect x="60" y="31" width="10" height="9" id="grazmitte" />
+  <rect x="75" y="26" width="10" height="14" id="grazsüd" />
+  <text x="75" y="45" font-size="2">Graz Süd</text> 
+  <text x="60" y="45" font-size="2">Graz Mitte</text>
+  <text x="45" y="45" font-size="2">Graz West</text>
+  <text x="30" y="45" font-size="2">Don Bosco</text>
+  <text x="15" y="45" font-size="2">Graz Ost</text>
+  <text x="3" y="31" font-size="2">30</text>
+  <text x="3" y="21" font-size="2">40</text>
+  <text x="3" y="11" font-size="2">50</text>
+    <text x="42" y="55" font-size="2.7">Graz Bezirke</text>
+    <text x="35" y="4" font-size="4" id="headline">Überschreitungen Feinstaub 2016</text>
+    <text x="2" y="3" font-size="2.7">Anzahl der Tage</text>
+  
+  
+ 
+
+  <!-- SVG Elements go here -->
+</svg>
+    <button type="button" onclick=Graz2016()>2016</button> 
+    <button type="button" onclick=Graz2017()>2017</button>
+   
+    
+    
+<h2>Datentabelle</h2>
+    <ul id="Werte"></ul><br />
+<h2>Über</h2>
+<ul><li>Infos zu diesem Projekt:</li>
+<li> <p> In dem Projekt wird der Übergang von Feinstaub in Graz in den Jahren 2016 und 2017 visualisiert. Das wurde anhand der fünf Messstationen Graz Ost, Don Bosco, Graz West, Graz Mitte, Graz Süd veranschaulicht. Zwei Balkendiagramme, die als SVG-Grafiken erstellt wurden, bilden den Kern der Website.</p>
+    <p>Der Spitzenreiter unter den fünf ausgewählten Bezirken ist Don Bosco, innerhalb eines Jahres stiegen die Höchstwerte von 39 Tagen auf 54 Tage im Jahr. Das sind um 19 Tage mit Feinstaub-Überschreitungen mehr als die EU akzeptiert.</p></li>
+<li><a href="http://www.umweltbundesamt.at/ueberschreitungen/">Umweltbundesamt Zahlen</a></li>
+<li><img src="http://images01.wetter.at/wcg1.jpg/consoleMadonnaNoStretch2/269.076.912" width=50%/></li>
+
+</ul>
+<h2>Team</h2>
+
+<li> Angelika Groß <a href="mailto:groangelika@gmail.com">groangelika@gmail.com</a></li></ul>
+    <li> Nikolaus Pichler <a href="mailto:nikolaus.pichler@edu.fh-joanneum.at">nikolaus.pichler@edu.fh-joanneum.at</a></li></ul>
+      <li> Katrin Blaß <a href="mailto:katrin.blass@edu.fh-joanneum.at">katrin.blaß@edu.fh-joanneum.at</a></li></ul>
+<h2>Quellenangabe:</h2>
+<ul><li><a href="http://www.umweltbundesamt.at/ueberschreitungen/">Umweltbundesamt</a></li>
+
+</ul>
+</main>
+<footer>
+  (Software Lizenz)<br />
+  Copyright Team Ok Cool<br />
+  'Umgesetzt im Rahmen der LV SUC @ FH JOANNEUM'<br />
+  Link zu <a href="https://github.com/PeterTheOne/scripting-und-coding-lv-fh-joanneum" target="_blank">https://github.com/PeterTheOne/scripting-und-coding-lv-fh-joanneum</a>
+
+</footer></article>
+    <script src="js/jquery-3.3.1.min.js"></script>    <script src="js/script.js"></script> 
+</body>
+
+</html>
