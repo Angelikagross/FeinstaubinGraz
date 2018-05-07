@@ -1,0 +1,28 @@
+body {
+    background-color: whitesmoke;
+} 
+#grazost {fill:lightblue;}
+#donbosco {fill:#8A084B}
+#grazwest {fill:#F5F6CE}
+#grazmitte {fill:#CEF6E3}
+#grazsüd {fill:#F6E3CE}
+#xline {stroke-width:0.1;}
+#yline {stroke-width:0.1;}
+#line50 {stroke-width:0.1;}
+#line40 {stroke-width:0.1;}
+#line30 {stroke-width:0.1;}
+
+#grazost2 {fill:lightblue;}
+#donbosco2 {fill:#8A084B}
+#grazwest2 {fill:#F5F6CE}
+#grazmitte2 {fill:#CEF6E3}
+#grazsüd2 {fill:#F6E3CE}
+#xline2 {stroke-width:0.1;}
+#yline2 {stroke-width:0.1;}
+#line502 {stroke-width:0.1;}
+#line402 {stroke-width:0.1;}
+#line302 {stroke-width:0.1;}
+
+ul {
+list-style-type: none;
+}
